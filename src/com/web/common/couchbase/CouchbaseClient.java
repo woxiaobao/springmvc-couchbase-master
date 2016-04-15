@@ -30,6 +30,10 @@ public class CouchbaseClient {
 	public static Bucket getBucket(){
 		return bucket;
 	}
+	
+	public static void disconnect(){
+		if(cluster!=null) cluster.disconnect();
+	}
 
 	
 }
