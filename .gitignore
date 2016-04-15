@@ -1,0 +1,10 @@
+*.class
+*.jar
+bin/
+.settings/
+build/
+temp/
+logs/
+upload/
+target/
+target-eclipse/
